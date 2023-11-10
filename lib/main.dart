@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10),
       alignment: Alignment.center,
-      child: Row(
+      child: Wrap(
         children: List.generate(
           list.length,
               (index) => Container(
